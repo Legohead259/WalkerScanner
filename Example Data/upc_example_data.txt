@@ -1,0 +1,110 @@
+-------------------------
+{
+  "products": [
+    {
+      "barcode_number": "883929140886",
+      "barcode_type": "UPC",
+      "barcode_formats": "UPC 883929140886, EAN 0883929140886",
+      "mpn": "1000156676",
+      "model": "",
+      "asin": "",
+      "product_name": "Harry Potter and the Deathly Hallows-P2",
+      "title": "Harry Potter and the Deathly Hallows, Part 2",
+      "category": "Business & Industrial > Film & Television",
+      "manufacturer": "Warner Home Video",
+      "brand": "Warner Home Video",
+      "label": "",
+      "author": "",
+      "publisher": "Warner Home Video",
+      "artist": "",
+      "actor": "",
+      "director": "",
+      "studio": "",
+      "genre": "",
+      "audience_rating": "",
+      "ingredients": "",
+      "nutrition_facts": "",
+      "color": "",
+      "format": "Blu-ray",
+      "package_quantity": "",
+      "size": "",
+      "length": "",
+      "width": "",
+      "height": "",
+      "weight": "",
+      "release_date": "",
+      "description": "The cinematic series based on J.K. Rowling's bestsellers comes to a conclusion with the second part of HARRY POTTER AND THE DEATHLY HALLOWS. The lives of Harry and his magic-making friends are on the line in this action-packed fantasy finale. David Yates, who directed the fifth, sixth, and seventh films in the series, returns for this last outing.",
+      "features": [],
+      "images": [
+        "https://images.barcodelookup.com/1590/15904623-1.jpg"
+      ],
+      "stores": [
+        {
+          "store_name": "Secondspin.com",
+          "store_price": "5.97",
+          "product_url": "http://www.secondspin.com/s/product/3005655",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Newegg.com",
+          "store_price": "6.99",
+          "product_url": "https://www.newegg.com/Product/Product.aspx?Item=9SIA20S0PA1585&nm_mc=AFC-C8Junction-MKPL&cm_mmc=AFC-C8Junction-MKPL-_-Movies+++TV-_-Warner+Home+Video-_-9SIA20S0PA1585",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Warner Bros. Online Shop",
+          "store_price": "9.79",
+          "product_url": "http://tracking.searchmarketing.com/click.asp?aid=1630234510",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Jet.com",
+          "store_price": "8.99",
+          "product_url": "http://jet.com/product/detail/2c854f9b58cf4ea4b37bc1887833b79e",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "fye.com",
+          "store_price": "10.99",
+          "product_url": "http://www.fye.com/s/product/3005655",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Rakuten.com",
+          "store_price": "11.58",
+          "product_url": "https://www.rakuten.com/shop/beachaudio/product/3121495/?sku=3121495?scid=af_feed",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Barnes & Noble",
+          "store_price": "12.59",
+          "product_url": "https://www.barnesandnoble.com/w/dvd-harry-potter-and-the-deathly-hallows-part-2-daniel-radcliffe/15150218?ean=0883929140886",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Newegg Business",
+          "store_price": "15.23",
+          "product_url": "https://www.neweggbusiness.com/Product/Product.aspx?Item=9SIV0W86KD0517&nm_mc=afc-cjb2b&cm_mmc=afc-cjb2b-_-Movies+++TV-_-Warner+Home+Video-_-9SIV0W86KD0517",
+          "currency_code": "USD",
+          "currency_symbol": "$"
+        },
+        {
+          "store_name": "Newegg Canada",
+          "store_price": "50.92",
+          "product_url": "https://www.newegg.ca/Product/Product.aspx?Item=9SIA90R64H3576&nm_mc=AFC-C8JunctionCA&cm_mmc=AFC-C8JunctionCA-_-Movies+++TV-_-Warner+Home+Video-_-9SIA90R64H3576",
+          "currency_code": "CAD",
+          "currency_symbol": "$"
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}
+-------------------------

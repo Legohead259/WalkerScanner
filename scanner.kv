@@ -1,0 +1,55 @@
+Base:
+    id: base
+    FloatLayout:
+        id: left
+        FeedbackBox:
+            id: feedback
+        UPCInput:
+            id: input
+        PublishButton:
+            id: publish
+            on_press: root.reset()
+        UpdateButton:
+            id: update
+            on_press: root.test()
+    GridLayout:
+        id: right
+        rows: 9
+        cols: 1
+        DataBox:
+            id: title
+            hint_text: "Title"
+            on_text_validate: self.update_title()
+        DataBox:
+            id: genre
+            hint_text: "Genre(s)"
+        DataBox:
+            id: rating
+            hint_text: "Rating"
+        DataBox:
+            id: format
+            hint_text: "Format"
+        DataBox:
+            id: year
+            hint_text: "Year"
+        DataBox:
+            id: runtime
+            hint_text: "Runtime"
+        DataBox:
+            id: plot
+            hint_text: "Plot summary"
+        DataBox:
+            id: reviews
+            hint_text: "Reviews"
+        ButtonBar:
+            ModeButton:
+                id: auto
+                text: "Auto"
+                background_color: self._enabled_color
+                on_press: self.change_colors(manual)
+            HelpButton:
+            ModeButton:
+                id: manual
+                text: "Manual"
+                background_color: self._disabled_color
+                on_press: self.change_colors(auto)

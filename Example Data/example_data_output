@@ -1,0 +1,42 @@
+-------------------------
+{
+  "Type": "movie",
+  "Metascore": "71",
+  "Writer": "Justin Theroux (screenplay), Ben Stiller (screenplay), Etan Cohen (screenplay), Ben Stiller (story), Justin Theroux (story)",
+  "Ratings": [
+    {
+      "Value": "7.0/10",
+      "Source": "Internet Movie Database"
+    },
+    {
+      "Value": "81%",
+      "Source": "Rotten Tomatoes"
+    },
+    {
+      "Value": "71/100",
+      "Source": "Metacritic"
+    }
+  ],
+  "Rated": "R",
+  "Runtime": "107 min",
+  "Director": "Ben Stiller",
+  "imdbVotes": "344,694",
+  "Language": "English, Mandarin",
+  "Awards": "Nominated for 1 Oscar. Another 10 wins & 43 nominations.",
+  "Production": "DreamWorks/Paramount Studios",
+  "Website": "http://www.TropicThunder.com",
+  "Released": "13 Aug 2008",
+  "Title": "Tropic Thunder",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_SX300.jpg",
+  "Response": "True",
+  "imdbID": "tt0942385",
+  "Country": "USA, UK, Germany",
+  "Year": "2008",
+  "DVD": "18 Nov 2008",
+  "Plot": "Through a series of freak occurrences, a group of actors shooting a big-budget war movie are forced to become the soldiers they are portraying.",
+  "Genre": "Action, Adventure, Comedy, War",
+  "Actors": "Jeff Kahn, Robert Downey Jr., Anthony Ruivivar, Jack Black",
+  "imdbRating": "7.0",
+  "BoxOffice": "$110,416,702"
+}
+-------------------------
