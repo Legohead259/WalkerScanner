@@ -1,5 +1,45 @@
-Base:
+<FeedbackBox>:
+    height: 250
+    width: 250
+    y: 100
+
+    canvas.before:
+        Color:
+            rgba: self.active_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+<UPCInput>:
+    height: 50
+    size_hint: (1, None)
+    y: 50
+    hint_text: "UPC"
+<PublishButton>:
+    height: 50
+    size_hint: (0.5, None)
+    y: 0
+    text: "Publish"
+<UpdateButton>:
+    height: 50
+    size_hint: (0.5, None)
+    x: 125
+    text: "Update"
+<DataBox>:
+    multiline: False
+<ModeButton>:
+    background_down: ""
+    background_normal: ""
+    background_disabled_down: ""
+    background_disabled_normal: ""
+<HelpButton>:
+    text: "Help"
+<ButtonBar>:
+    rows: 1
+    cols: 3
+<Base>:
     id: base
+    rows: 1
+    cols: 2
     FloatLayout:
         id: left
         FeedbackBox:
@@ -8,10 +48,11 @@ Base:
             id: input
         PublishButton:
             id: publish
-            on_press: root.reset()
+            on_press:
+                root.reset()
         UpdateButton:
             id: update
-            on_press: root.test()
+            on_press:
     GridLayout:
         id: right
         rows: 9

@@ -1,7 +1,5 @@
 from kivy.app import App
-from kivy.graphics.context_instructions import Color
-from kivy.graphics.vertex_instructions import Rectangle
-from kivy.properties import NumericProperty, StringProperty
+from kivy.properties import StringProperty, ListProperty
 from kivy.uix.button import Button
 from kivy.core.window import Window
 from kivy.uix.gridlayout import GridLayout
@@ -9,69 +7,78 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.widget import Widget
 
 import vars
+from util import query_ombd
 
 Window.size = (500, 350)
 
 
 class Base(GridLayout):
-    rows = 1
-    cols = 2
-
     def test(self):
         print(self.ids)
 
     def reset(self):
-        print("Resetting!")  # Debug
+        # print("Resetting!")  # Debug
         text_resets = ['input', 'title', 'genre', 'rating', 'format', 'year', 'runtime', 'plot', 'reviews']
 
         for label in self.ids:
             if label in text_resets:
                 self.ids.get(label).text = ""
-                print("Cleared:", label)
+                # print("Cleared:", label)  # Debug
+
+        self.ids['feedback'].set_standby()
+
+    def auto(self):
+        pass
 
 
 class FeedbackBox(Widget):
-    _good_color = Color(0, 1, 0, 1)
-    _bad_color = Color(1, 0, 0, 1)
-    height = NumericProperty(250)
-    width = NumericProperty(250)
-    y = NumericProperty(100)
+    _good_color = [0, 1, 0, 0.5]
+    _bad_color = [1, 0, 0, 0.5]
+    _standby_color = [0, 0, 1, 0.5]
+    active_color = ListProperty(_standby_color)
+    rect = None
 
     def __init__(self, **kwargs):
         # make sure we aren't overriding any important functionality
         super(FeedbackBox, self).__init__(**kwargs)
 
-        with self.canvas.before:
-            Color(0, 0, 1, 0.5)
-            self.rect = Rectangle(size=self.size, pos=self.pos)
+    def set_good(self):
+        # print("Setting GOOD color...")  # Debug
+        self.active_color = self._good_color
+
+    def set_bad(self):
+        # print("Setting BAD color...")  # Debug
+        self.active_color = self._bad_color
+
+    def set_standby(self):
+        # print("Setting STANDBY color...")  # Debug
+        self.active_color = self._standby_color
 
 
 class UPCInput(TextInput):
-    height = NumericProperty(50)
-    size_hint = (1, None)
-    y = NumericProperty(50)
-    hint_text = StringProperty("UPC")
+    pass
 
 
 class PublishButton(Button):
-    height = NumericProperty(50)
-    size_hint = (0.5, None)
-    y = NumericProperty(0)
-    text = "Publish"
+    pass
 
 
 class UpdateButton(Button):
-    height = NumericProperty(50)
-    size_hint = (0.5, None)
-    x = NumericProperty(125)
-    text = "Update"
+    def test(self):
+        print(root.ids)
 
 
 class DataBox(TextInput):
-    multiline = False
-
     def update_title(self):
-        vars.data_buffer.update(title=self.text)
+        if vars.auto_mode:
+            # print("Querying...")  # Debug
+            if query_ombd(self.text):
+                print(root.ids)  # Debug
+                root.ids['feedback'].set_good()
+            else:
+                root.ids['feedback'].set_bad()
+
+        # print(vars.auto_mode)  # Debug
         # print(vars.data_buffer)  # Debug
 
     def update_genre(self):
@@ -97,15 +104,11 @@ class DataBox(TextInput):
 
 
 class ModeButton(Button):
-    background_down = StringProperty("")
-    background_normal = StringProperty("")
-    background_disabled_down = StringProperty("")
-    background_disabled_normal = StringProperty("")
     _enabled_color = [0, 1, 0, 0.5]
     _disabled_color = [1, 0, 0, 0.5]
 
     def change_colors(self, other):
-        if self.background_color != self._enabled_color:
+        if self.background_color != self._enabled_color:  # If button is not enabled
             other_color = other.background_color
             other.background_color = self.background_color
             self.background_color = other_color
@@ -114,16 +117,18 @@ class ModeButton(Button):
 
 
 class HelpButton(Button):
-    text = StringProperty("Help")
+    pass
 
 
 class ButtonBar(GridLayout):
-    rows = 1
-    cols = 3
+    pass
 
 
 class ScannerApp(App):
-    pass
+    def build(self):
+        global root
+        root = Base()
+        return root
 
 
 if __name__ == '__main__':

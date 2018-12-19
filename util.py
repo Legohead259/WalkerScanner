@@ -118,8 +118,12 @@ def query_ombd(title):
     api_key = "47fec2f"  # 1000 calls per day
     url = "http://www.omdbapi.com/?t=%s&apikey=%s" % (title, api_key)
     # print_response(url)  # Debug
-    parse_omdb_data(get_response(url).json())
-
+    try:
+        parse_omdb_data(get_response(url).json())
+        return True
+    except KeyError:
+        print("-----INVALID TITLE!-----")
+        return False
 
 # =====END QUERY FUNCTIONS=====
 
