@@ -81,7 +81,7 @@ class PublishButton(Button):
     @staticmethod
     def publish():
         if root.ids.Title.text != "":
-            with open('test_data.csv', 'a') as csv_file:
+            with open('data.csv', 'a') as csv_file:
                 writer = csv.writer(csv_file, dialect='excel')
                 # print(vars.data_buffer.values())  # Debug
                 writer.writerow(vars.data_buffer.values())
