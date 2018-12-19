@@ -6,9 +6,10 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.widget import Widget
 
-Window.size = (500, 350)
+import vars
+from util import query_ombd
 
-data_buffer = {}  # Expected: title, genre, rating, format, year, runtime, plot, reviews
+Window.size = (500, 350)
 
 
 class Base(GridLayout):
@@ -33,7 +34,7 @@ class Base(GridLayout):
         for label in self.ids:
             if label in fields:
                 try:
-                    self.ids.get(label).text = data_buffer[label]
+                    self.ids.get(label).text = vars.data_buffer[label]
                     # print("Updated:", label)  # Debug
                 except KeyError:
                     pass
@@ -72,18 +73,12 @@ class PublishButton(Button):
     pass
 
 
-class UpdateButton(Button):
-    def test(self):
-        print(root.ids)
-
-
 class ResetButton(Button):
     pass
 
 
 class DataBox(TextInput):
     def update_title(self):
-        from util import query_ombd
         # print("Querying...")  # Debug
         if query_ombd(self.text):
             root.update()
@@ -95,38 +90,25 @@ class DataBox(TextInput):
         # print(vars.data_buffer)  # Debug
 
     def update_genre(self):
-        data_buffer.update(genre=self.text)
+        vars.data_buffer.update(genre=self.text)
 
     def update_rating(self):
-        data_buffer.update(rating=self.text)
+        vars.data_buffer.update(rating=self.text)
 
     def update_format(self):
-        data_buffer.update(format=self.text)
+        vars.data_buffer.update(format=self.text)
 
     def update_year(self):
-        data_buffer.update(year=self.text)
+        vars.data_buffer.update(year=self.text)
 
     def update_length(self):
-        data_buffer.update(length=self.text)
+        vars.data_buffer.update(length=self.text)
 
     def update_plot(self):
-        data_buffer.update(plot=self.text)
+        vars.data_buffer.update(plot=self.text)
 
     def update_reviews(self):
-        data_buffer.update(reviews=self.text)
-
-
-class ModeButton(Button):
-    _enabled_color = [0, 1, 0, 0.5]
-    _disabled_color = [1, 0, 0, 0.5]
-
-    def change_colors(self, other):
-        if self.background_color != self._enabled_color:  # If button is not enabled
-            other_color = other.background_color
-            other.background_color = self.background_color
-            self.background_color = other_color
-            vars.auto_mode = not vars.auto_mode
-            # print(vars.auto_mode)  # Debug
+        vars.data_buffer.update(reviews=self.text)
 
 
 class HelpButton(Button):

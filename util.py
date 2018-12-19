@@ -1,8 +1,7 @@
 import json
 import requests
-
-from scanner import data_buffer
 from errors import InvalidData, Forbidden, NotFound, ExceedLimit, ScanError, raise_error
+import vars
 
 
 # =====START RESPONSE FUNCTIONS=====
@@ -78,7 +77,7 @@ def query_barcodelookup(upc):
     # print_response(url)  # Debug
     r = get_response(url).json()
     query_ombd(parse_upc_name(r['products'][0]['title']))
-    data_buffer.update(format=r['products'][0]['format'])
+    vars.data_buffer.update(format=r['products'][0]['format'])
     # print(vars.data_buffer)  # Debug
 
 
@@ -121,7 +120,7 @@ def query_ombd(title):
     # print_response(url)  # Debug
     try:
         parse_omdb_data(get_response(url).json())
-        print(data_buffer)  # Debug
+        print(vars.data_buffer)  # Debug
         return True
     except KeyError:
         print("-----INVALID TITLE!-----")
@@ -150,7 +149,7 @@ def parse_upc_name(name):
         if index_bracket == -1:  # If there is no bracketed information
             title = name[:index_psis-1]  # Gets the title up to the extra data (excluding space)
             # print(title)  # Debug
-            data_buffer.update(format=name[index_psis+1:name.find(')')])  # Adds the extra information to "type"
+            vars.data_buffer.update(format=name[index_psis+1:name.find(')')])  # Adds the extra information to "type"
             # print(vars.data_buffer)  # Debug
             return title
         elif index_bracket > index_psis:  # If the brackets come after the parenthesis
@@ -167,7 +166,7 @@ def parse_upc_name(name):
         if index_psis == -1:  # If there is no parenthetical information
             title = name[:index_bracket - 1]  # Gets the title up to the extra data (excluding space)
             # print(title)  # Debug
-            data_buffer.update(format=name[index_bracket+1:name.find(']')])  # Adds the extra information to "type"
+            vars.data_buffer.update(format=name[index_bracket+1:name.find(']')])  # Adds the extra information to "type"
             # print(vars.data_buffer)  # Debug
             return title
 
@@ -175,7 +174,7 @@ def parse_upc_name(name):
 
         # print(title)  # Debug
         # print(info)  # Debug
-        data_buffer.update(format=info)
+        vars.data_buffer.update(format=info)
         return title
     else:
         # print(name)  # Debug
@@ -187,13 +186,13 @@ def parse_omdb_data(data):
     Parses data from the OMDb API JSON file into the data buffer stored in "vars"
     :param data: the JSON filed returned from the OMDb API service
     """
-    data_buffer.update({'title': data['Title'],
-                        'genre': data['Genre'],
-                        'rating': data['Rated'],
-                        'year': data['Year'],
-                        'runtime': data['Runtime'][:data['Runtime'].find(' ')],
-                        'plot': data['Plot'],
-                        'reviews': data['Metascore']})
+    vars.data_buffer.update({'title': data['Title'],
+                             'genre': data['Genre'],
+                             'rating': data['Rated'],
+                             'year': data['Year'],
+                             'runtime': data['Runtime'][:data['Runtime'].find(' ')],
+                             'plot': data['Plot'],
+                             'reviews': data['Metascore']})
     # print(vars.data_buffer)  # Debug
 
 

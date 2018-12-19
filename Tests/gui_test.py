@@ -1,6 +1,7 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
+from Tests.test_vars import auto
 
 
 class Marvel(BoxLayout):
@@ -15,6 +16,9 @@ class Hulk(Button):
         print(self.root.ids)
         self.parent.ids.hulk.text = "hulk: puny god!"
         self.parent.ids["loki"].text = "loki: >_<!!!"  # alternative syntax
+
+    def on_auto_change(self):
+        print("Auto change detected!")
 
 
 class TestApp(App):
