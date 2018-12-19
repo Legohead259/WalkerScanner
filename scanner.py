@@ -6,10 +6,9 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.widget import Widget
 
-import vars
-from util import query_ombd
-
 Window.size = (500, 350)
+
+data_buffer = {}  # Expected: title, genre, rating, format, year, runtime, plot, reviews
 
 
 class Base(GridLayout):
@@ -34,7 +33,7 @@ class Base(GridLayout):
         for label in self.ids:
             if label in fields:
                 try:
-                    self.ids.get(label).text = vars.data_buffer[label]
+                    self.ids.get(label).text = data_buffer[label]
                     # print("Updated:", label)  # Debug
                 except KeyError:
                     pass
@@ -84,37 +83,37 @@ class ResetButton(Button):
 
 class DataBox(TextInput):
     def update_title(self):
-        if vars.auto_mode:
-            # print("Querying...")  # Debug
-            if query_ombd(self.text):
-                root.update()
-                root.ids['feedback'].set_good()
-            else:
-                root.ids['feedback'].set_bad()
+        from util import query_ombd
+        # print("Querying...")  # Debug
+        if query_ombd(self.text):
+            root.update()
+            root.ids['feedback'].set_good()
+        else:
+            root.ids['feedback'].set_bad()
 
         # print(vars.auto_mode)  # Debug
         # print(vars.data_buffer)  # Debug
 
     def update_genre(self):
-        vars.data_buffer.update(genre=self.text)
+        data_buffer.update(genre=self.text)
 
     def update_rating(self):
-        vars.data_buffer.update(rating=self.text)
+        data_buffer.update(rating=self.text)
 
     def update_format(self):
-        vars.data_buffer.update(format=self.text)
+        data_buffer.update(format=self.text)
 
     def update_year(self):
-        vars.data_buffer.update(year=self.text)
+        data_buffer.update(year=self.text)
 
     def update_length(self):
-        vars.data_buffer.update(length=self.text)
+        data_buffer.update(length=self.text)
 
     def update_plot(self):
-        vars.data_buffer.update(plot=self.text)
+        data_buffer.update(plot=self.text)
 
     def update_reviews(self):
-        vars.data_buffer.update(reviews=self.text)
+        data_buffer.update(reviews=self.text)
 
 
 class ModeButton(Button):
