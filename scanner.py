@@ -5,9 +5,10 @@ from kivy.core.window import Window
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.widget import Widget
+import csv
 
 import vars
-from util import query_ombd
+from util import query_ombd, query_barcode_apis
 
 Window.size = (500, 350)
 
@@ -18,18 +19,19 @@ class Base(GridLayout):
 
     def reset(self):
         # print("Resetting...")  # Debug
-        fields = ['input', 'title', 'genre', 'rating', 'format', 'year', 'runtime', 'plot', 'reviews']
+        fields = ['input', 'Title', 'Genre', 'Rated', 'Format', 'Year', 'Runtime', 'Plot', 'Metascore']
 
         for label in self.ids:
             if label in fields:
                 self.ids.get(label).text = ""
+                vars.reset_buffer()
                 # print("Cleared:", label)  # Debug
 
         self.ids['feedback'].set_standby()
 
     def update(self):
         # print("Updating...")  # Debug
-        fields = ['title', 'genre', 'rating', 'format', 'year', 'runtime', 'plot', 'reviews']
+        fields = ['Title', 'Genre', 'Rated', 'Format', 'Year', 'Runtime', 'Plot', 'Metascore']
 
         for label in self.ids:
             if label in fields:
@@ -66,11 +68,23 @@ class FeedbackBox(Widget):
 
 
 class UPCInput(TextInput):
-    pass
+    def get_movie(self):
+        # print(self.text)  # Debug
+        if query_barcode_apis(self.text):
+            root.update()
+            root.ids['feedback'].set_good()
+        else:
+            root.ids['feedback'].set_bad()
 
 
 class PublishButton(Button):
-    pass
+    @staticmethod
+    def publish():
+        if root.ids.Title.text != "":
+            with open('test_data.csv', 'a') as csv_file:
+                writer = csv.writer(csv_file, dialect='excel')
+                # print(vars.data_buffer.values())  # Debug
+                writer.writerow(vars.data_buffer.values())
 
 
 class ResetButton(Button):
@@ -127,4 +141,5 @@ class ScannerApp(App):
 
 
 if __name__ == '__main__':
+    vars.reset_buffer()
     ScannerApp().run()

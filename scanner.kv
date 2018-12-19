@@ -14,6 +14,7 @@
     size_hint: (1, None)
     y: 50
     hint_text: "UPC"
+    multiline: False
 <PublishButton>:
     height: 50
     size_hint: (1, None)
@@ -38,39 +39,41 @@
             id: feedback
         UPCInput:
             id: input
+            on_text_validate: self.get_movie()
         PublishButton:
             id: publish
             on_press:
+                self.publish()
                 root.reset()
     GridLayout:
         id: right
         rows: 9
         cols: 1
         DataBox:
-            id: title
+            id: Title
             hint_text: "Title"
             on_text_validate: self.update_title()
         DataBox:
-            id: genre
+            id: Genre
             hint_text: "Genre(s)"
         DataBox:
-            id: rating
+            id: Rated
             hint_text: "Rating"
         DataBox:
-            id: format
+            id: Format
             hint_text: "Format"
         DataBox:
-            id: year
+            id: Year
             hint_text: "Year"
         DataBox:
-            id: runtime
+            id: Runtime
             hint_text: "Runtime"
         DataBox:
-            id: plot
+            id: Plot
             hint_text: "Plot summary"
         DataBox:
-            id: reviews
-            hint_text: "Reviews"
+            id: Metascore
+            hint_text: "Metascore"
         ButtonBar:
             HelpButton:
             ResetButton:
