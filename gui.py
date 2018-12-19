@@ -1,5 +1,5 @@
 from kivy.app import App
-from kivy.properties import StringProperty, ListProperty
+from kivy.properties import ListProperty
 from kivy.uix.button import Button
 from kivy.core.window import Window
 from kivy.uix.gridlayout import GridLayout
@@ -17,30 +17,40 @@ class Base(GridLayout):
         print(self.ids)
 
     def reset(self):
-        # print("Resetting!")  # Debug
-        text_resets = ['input', 'title', 'genre', 'rating', 'format', 'year', 'runtime', 'plot', 'reviews']
+        # print("Resetting...")  # Debug
+        fields = ['input', 'title', 'genre', 'rating', 'format', 'year', 'runtime', 'plot', 'reviews']
 
         for label in self.ids:
-            if label in text_resets:
+            if label in fields:
                 self.ids.get(label).text = ""
                 # print("Cleared:", label)  # Debug
 
         self.ids['feedback'].set_standby()
 
-    def auto(self):
-        pass
+    def update(self):
+        # print("Updating...")  # Debug
+        fields = ['title', 'genre', 'rating', 'format', 'year', 'runtime', 'plot', 'reviews']
+
+        for label in self.ids:
+            if label in fields:
+                try:
+                    self.ids.get(label).text = vars.data_buffer[label]
+                    # print("Updated:", label)  # Debug
+                except KeyError:
+                    pass
 
 
 class FeedbackBox(Widget):
     _good_color = [0, 1, 0, 0.5]
     _bad_color = [1, 0, 0, 0.5]
     _standby_color = [0, 0, 1, 0.5]
-    active_color = ListProperty(_standby_color)
+    active_color = ListProperty()
     rect = None
 
     def __init__(self, **kwargs):
         # make sure we aren't overriding any important functionality
         super(FeedbackBox, self).__init__(**kwargs)
+        self.active_color = self._standby_color
 
     def set_good(self):
         # print("Setting GOOD color...")  # Debug
@@ -68,12 +78,16 @@ class UpdateButton(Button):
         print(root.ids)
 
 
+class ResetButton(Button):
+    pass
+
+
 class DataBox(TextInput):
     def update_title(self):
         if vars.auto_mode:
             # print("Querying...")  # Debug
             if query_ombd(self.text):
-                print(root.ids)  # Debug
+                root.update()
                 root.ids['feedback'].set_good()
             else:
                 root.ids['feedback'].set_bad()

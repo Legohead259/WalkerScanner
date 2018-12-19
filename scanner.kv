@@ -24,6 +24,12 @@
     size_hint: (0.5, None)
     x: 125
     text: "Update"
+<ResetButton>:
+    height: 25
+    size_hint: (0.5, None)
+    x: 0
+    y: 325
+    text: "Reset"
 <DataBox>:
     multiline: False
 <ModeButton>:
@@ -44,6 +50,9 @@
         id: left
         FeedbackBox:
             id: feedback
+        ResetButton:
+            id: reset
+            on_press: root.reset()
         UPCInput:
             id: input
         PublishButton:
@@ -52,7 +61,7 @@
                 root.reset()
         UpdateButton:
             id: update
-            on_press:
+            on_press: root.update()
     GridLayout:
         id: right
         rows: 9

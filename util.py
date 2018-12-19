@@ -89,7 +89,7 @@ def query_upcitemdp(upc):
     url = "https://api.upcitemdb.com/prod/trial/lookup?upc=%s" % upc
     # print_response(url)  # Debug
     query_ombd(parse_upc_name(get_response(url).json()['items'][0]['title']))
-    print(vars.data_buffer)  # Debug
+    # print(vars.data_buffer)  # Debug
 
 
 def query_barcode_apis(data):
@@ -120,6 +120,7 @@ def query_ombd(title):
     # print_response(url)  # Debug
     try:
         parse_omdb_data(get_response(url).json())
+        print(vars.data_buffer)  # Debug
         return True
     except KeyError:
         print("-----INVALID TITLE!-----")
@@ -186,10 +187,10 @@ def parse_omdb_data(data):
     :param data: the JSON filed returned from the OMDb API service
     """
     vars.data_buffer.update({'title': data['Title'],
-                             'genres': data['Genre'],
+                             'genre': data['Genre'],
                              'rating': data['Rated'],
                              'year': data['Year'],
-                             'length': data['Runtime'][:data['Runtime'].find(' ')],
+                             'runtime': data['Runtime'][:data['Runtime'].find(' ')],
                              'plot': data['Plot'],
                              'reviews': data['Metascore']})
     # print(vars.data_buffer)  # Debug
