@@ -125,14 +125,6 @@ class DataBox(TextInput):
         vars.data_buffer.update(reviews=self.text)
 
 
-class HelpButton(Button):
-    pass
-
-
-class ButtonBar(GridLayout):
-    pass
-
-
 class ScannerApp(App):
     def build(self):
         global root

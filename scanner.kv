@@ -24,8 +24,6 @@
     text: "Reset"
 <DataBox>:
     multiline: False
-<HelpButton>:
-    text: "Help"
 <ButtonBar>:
     rows: 1
     cols: 3
@@ -74,7 +72,5 @@
         DataBox:
             id: Metascore
             hint_text: "Metascore"
-        ButtonBar:
-            HelpButton:
-            ResetButton:
-                on_press: root.reset()
+        ResetButton:
+            on_press: root.reset()
