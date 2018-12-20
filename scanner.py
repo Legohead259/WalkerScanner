@@ -14,30 +14,29 @@ Window.size = (500, 350)
 
 
 class Base(GridLayout):
-    def test(self):
-        print(self.ids)
-
     def reset(self):
-        # print("Resetting...")  # Debug
+        """
+        Resets the auto-fill fields to blank
+        """
         fields = ['input', 'Title', 'Genre', 'Rated', 'Format', 'Year', 'Runtime', 'Plot', 'Metascore']
 
         for label in self.ids:
             if label in fields:
                 self.ids.get(label).text = ""
                 vars.reset_buffer()
-                # print("Cleared:", label)  # Debug
 
         self.ids['feedback'].set_standby()
 
     def update(self):
-        # print("Updating...")  # Debug
+        """
+        Updates the auto-fill fields with their respective fields from the data buffer
+        """
         fields = ['Title', 'Genre', 'Rated', 'Format', 'Year', 'Runtime', 'Plot', 'Metascore']
 
         for label in self.ids:
             if label in fields:
                 try:
                     self.ids.get(label).text = vars.data_buffer[label]
-                    # print("Updated:", label)  # Debug
                 except KeyError:
                     pass
 
@@ -55,21 +54,20 @@ class FeedbackBox(Widget):
         self.active_color = self._standby_color
 
     def set_good(self):
-        # print("Setting GOOD color...")  # Debug
         self.active_color = self._good_color
 
     def set_bad(self):
-        # print("Setting BAD color...")  # Debug
         self.active_color = self._bad_color
 
     def set_standby(self):
-        # print("Setting STANDBY color...")  # Debug
         self.active_color = self._standby_color
 
 
 class UPCInput(TextInput):
     def get_movie(self):
-        # print(self.text)  # Debug
+        """
+        Wrapper for automatically getting the movie data from the UPC and OMDb APIs and auto-populating the GUI fields
+        """
         if query_barcode_apis(self.text):
             root.update()
             root.ids['feedback'].set_good()
@@ -80,11 +78,14 @@ class UPCInput(TextInput):
 class PublishButton(Button):
     @staticmethod
     def publish():
-        if root.ids.Title.text != "":
+        """
+        Writes the auto-fill fields to the .csv file for import to the spreadsheet
+        """
+        if root.ids.Title.text != "":  # If the movie has been queried
             with open('data.csv', 'a') as csv_file:
                 writer = csv.writer(csv_file, dialect='excel')
-                # print(vars.data_buffer.values())  # Debug
                 writer.writerow(vars.data_buffer.values())
+            root.reset()
 
 
 class ResetButton(Button):
@@ -93,15 +94,11 @@ class ResetButton(Button):
 
 class DataBox(TextInput):
     def update_title(self):
-        # print("Querying...")  # Debug
-        if query_ombd(self.text):
-            root.update()
+        if query_ombd(self.text):  # If the movie is successfully queried
+            root.update()  # Update all the fields with the new data in data_buffer
             root.ids['feedback'].set_good()
         else:
             root.ids['feedback'].set_bad()
-
-        # print(vars.auto_mode)  # Debug
-        # print(vars.data_buffer)  # Debug
 
     def update_genre(self):
         vars.data_buffer.update(genre=self.text)
