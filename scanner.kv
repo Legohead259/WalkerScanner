@@ -24,6 +24,9 @@
     text: "Reset"
 <DataBox>:
     multiline: False
+<FormatDropDown>:
+    FormatButton:
+        id: DVD
 <ButtonBar>:
     rows: 1
     cols: 3
@@ -44,7 +47,7 @@
                 self.publish()
     GridLayout:
         id: right
-        rows: 9
+        rows: 10
         cols: 1
         DataBox:
             id: Title
@@ -53,23 +56,30 @@
         DataBox:
             id: Genre
             hint_text: "Genre(s)"
+            on_text_validate: self.update_genre()
         DataBox:
             id: Rated
             hint_text: "Rating"
+            on_text_validate: self.update_rating()
         DataBox:
             id: Format
             hint_text: "Format"
+            on_text_validate: self.update_format()
         DataBox:
             id: Year
             hint_text: "Year"
+            on_text_validate: self.update_year()
         DataBox:
             id: Runtime
             hint_text: "Runtime"
+            on_text_validate: self.update_runtime()
         DataBox:
             id: Plot
             hint_text: "Plot summary"
+            on_text_validate: self.update_plot()
         DataBox:
             id: Metascore
             hint_text: "Metascore"
+            on_text_validate: self.update_reviews()
         ResetButton:
             on_press: root.reset()

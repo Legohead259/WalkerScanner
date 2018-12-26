@@ -2,6 +2,7 @@ from kivy.app import App
 from kivy.properties import ListProperty
 from kivy.uix.button import Button
 from kivy.core.window import Window
+from kivy.uix.dropdown import DropDown
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.widget import Widget
@@ -82,7 +83,7 @@ class PublishButton(Button):
         Writes the auto-fill fields to the .csv file for import to the spreadsheet
         """
         if root.ids.Title.text != "":  # If the movie has been queried
-            with open('data.csv', 'a') as csv_file:
+            with open('data.csv', 'a', newline="") as csv_file:
                 writer = csv.writer(csv_file, dialect='excel')
                 writer.writerow(vars.data_buffer.values())
             root.reset()
@@ -101,25 +102,25 @@ class DataBox(TextInput):
             root.ids['feedback'].set_bad()
 
     def update_genre(self):
-        vars.data_buffer.update(genre=self.text)
+        vars.data_buffer.update(Genre=self.text)
 
     def update_rating(self):
-        vars.data_buffer.update(rating=self.text)
+        vars.data_buffer.update(Rated=self.text)
 
     def update_format(self):
-        vars.data_buffer.update(format=self.text)
+        vars.data_buffer.update(Format=self.text)
 
     def update_year(self):
-        vars.data_buffer.update(year=self.text)
+        vars.data_buffer.update(Year=self.text)
 
-    def update_length(self):
-        vars.data_buffer.update(length=self.text)
+    def update_runtime(self):
+        vars.data_buffer.update(Runtime=self.text)
 
     def update_plot(self):
-        vars.data_buffer.update(plot=self.text)
+        vars.data_buffer.update(Plot=self.text)
 
     def update_reviews(self):
-        vars.data_buffer.update(reviews=self.text)
+        vars.data_buffer.update(Metascore=self.text)
 
 
 class ScannerApp(App):

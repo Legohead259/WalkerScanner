@@ -73,7 +73,8 @@ def query_barcodelookup(upc):
     """
     api_key = "p22mxd4119y2fd54lo3exitq62v0ce"
     url = "https://api.barcodelookup.com/v2/products?barcode=%s&formatted=n&key=%s" % (upc, api_key)
-    query_ombd(parse_upc_name(get_response(url).json()['products'][0]['title']))
+    # query_ombd(parse_upc_name(get_response(url).json()['products'][0]['title']))
+    print_response(url)
 
 
 def query_upcitemdp(upc):
@@ -84,6 +85,7 @@ def query_upcitemdp(upc):
     """
     url = "https://api.upcitemdb.com/prod/trial/lookup?upc=%s" % upc
     query_ombd(parse_upc_name(get_response(url).json()['items'][0]['title']))
+    # print_response(url)  # Debug
 
 
 def query_barcode_apis(data):
@@ -98,11 +100,12 @@ def query_barcode_apis(data):
         query_barcodelookup(data)
         return True
     except ScanError:  # Any issue with scanning, try to query UPC Item Db API
-        try:
-            query_upcitemdp(data)
-            return True
-        except ScanError:  # Any issue with scanning, report scanning failed
-            return False
+        print("FAILED")
+        # try:
+        #     query_upcitemdp(data)
+        #     return True
+        # except ScanError:  # Any issue with scanning, report scanning failed
+        #     return False
 
 
 def query_ombd(title):
@@ -118,6 +121,7 @@ def query_ombd(title):
         parse_omdb_data(get_response(url).json())
         return True
     except KeyError:  # Title supplied is incorrect
+        print(vars.data_buffer["Title"])  # Debug
         print("-----INVALID TITLE!-----")
         return False
 
@@ -174,6 +178,7 @@ def parse_omdb_data(data):
     Parses data from the OMDb API JSON file into the data buffer
     :param data: the JSON filed returned from the OMDb API service
     """
+    print(vars.data_buffer["Title"])
     json_fields = ['Title', 'Genre', 'Rated', 'Year', 'Runtime', 'Plot', 'Metascore']
     for field in json_fields:
         vars.data_buffer[field] = data[field]
