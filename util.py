@@ -1,7 +1,9 @@
+import csv
 import json
 import requests
 from errors import InvalidData, Forbidden, NotFound, ExceedLimit, ScanError, raise_error
 import vars
+import xml.etree.ElementTree as ET
 
 
 # =====START RESPONSE FUNCTIONS=====
@@ -15,6 +17,7 @@ def get_response(url):
     """
     headers = {'cache-control': "no-cache"}
     response = requests.get(url, headers=headers)
+    # print(response.status_code)  # Debug
 
     # ===Start Response Checking===
 
@@ -54,58 +57,16 @@ def print_response(url):
 # =====START QUERY FUNCTIONS=====
 
 
-@DeprecationWarning
 def query_upcdb(upc):
     """
     Queries the UPC Database API (wwww.upcdatabase.org - 100 requests per day)
     :param upc: the UPC code for the product
+    :return if the UPC was successfully queried and the movie dta populated
     """
-    api_key = "73CC4578E54A4B678F76627BE5B05BBE"
+    api_key = "04B5A7D78FD480752FAB0382964D7AF7"
     url = "https://api.upcdatabase.org/product/%s/%s" % (upc, api_key)
-    print_response(url)
-
-
-def query_barcodelookup(upc):
-    """
-    Queries the Barcode Lookup API (www.barcodelookup.com - 50 requests per day)
-    Automatically populates the data buffer with the queried information
-    :param upc: the UPC code for the product
-    """
-    api_key = "p22mxd4119y2fd54lo3exitq62v0ce"
-    url = "https://api.barcodelookup.com/v2/products?barcode=%s&formatted=n&key=%s" % (upc, api_key)
-    # query_ombd(parse_upc_name(get_response(url).json()['products'][0]['title']))
-    print_response(url)
-
-
-def query_upcitemdp(upc):
-    """
-    Queries the UPC Item Database API (www.upcitemdp.com - 100 requests per day)
-    Automatically populates the data buffer with the queried information
-    :param upc: the UPC code for the product
-    """
-    url = "https://api.upcitemdb.com/prod/trial/lookup?upc=%s" % upc
-    query_ombd(parse_upc_name(get_response(url).json()['items'][0]['title']))
     # print_response(url)  # Debug
-
-
-def query_barcode_apis(data):
-    """
-    Wrapper function for querying and handling all the API services.
-    To add a UPC API service, create its "query function" and add it to the try-catch chain
-    :param data: the UPC code
-    :return returns if the upc was successfully scanned
-    """
-    # TODO: Try and make the try-catch chain cleaner
-    try:  # Try to query Barcode Lookup API with the UPC code
-        query_barcodelookup(data)
-        return True
-    except ScanError:  # Any issue with scanning, try to query UPC Item Db API
-        print("FAILED")
-        # try:
-        #     query_upcitemdp(data)
-        #     return True
-        # except ScanError:  # Any issue with scanning, report scanning failed
-        #     return False
+    return query_ombd(parse_upc_name(get_response(url).json()['title']))
 
 
 def query_ombd(title):
@@ -118,7 +79,10 @@ def query_ombd(title):
     api_key = "47fec2f"  # 1000 calls per day
     url = "http://www.omdbapi.com/?t=%s&apikey=%s" % (title, api_key)
     try:  # Try to query OMBd with the supplied title
-        parse_omdb_data(get_response(url).json())
+        data = get_response(url).json()
+        json_fields = ['Title', 'Genre', 'Rated', 'Year', 'Runtime', 'Plot', 'Metascore']
+        for field in json_fields:
+            vars.data_buffer[field] = data[field]
         return True
     except KeyError:  # Title supplied is incorrect
         print(vars.data_buffer["Title"])  # Debug
@@ -139,49 +103,79 @@ def parse_upc_name(name):
     :param name: the title from the UPC API
     :return: the parsed title without any additional information for use by OMDb API
     """
-    index_psis = name.find('(')  # First index of the parenthetical information. Should only be one such instance
-    index_bracket = name.find('[')  # First index of the bracketed information. Should only be one such instance
-    if index_psis != -1 or index_bracket != -1:  # If extra information is found
 
-        # ===Start Parenthesis Parsing===
+    # ===START TYPE PARSING===
 
-        if index_bracket == -1:  # If there is no bracketed information
-            title = name[:index_psis-1]  # Gets the title up to the extra data (excluding space)
-            vars.data_buffer.update(Format=name[index_psis+1:name.find(')')])  # Adds the extra information to "Format"
-            return title
-        elif index_bracket > index_psis:  # If the brackets come after the parenthesis
-            title = name[:index_psis - 1]  # Gets the title up to the parenthetical information (excluding space)
-            info = name[index_psis + 1:name.find(')')] + " " + name[index_bracket + 1:name.find(']')]  # Stores the parenthetical and bracketed information
-        else:  # The brackets come before the parenthesis
-            title = name[:index_bracket - 1]  # Gets the title up to the extra data (excluding space)
-            info = name[index_psis + 1:name.find(')')] + " " + name[index_bracket + 1:name.find(']')]  # Stores the parenthetical and bracketed information
+    temp = name.lower()
+    temp_format = ""
+    if temp.find("blu-ray") != -1:
+        temp_format += "BR"
+    if temp.find("4k") != -1:
+        if temp_format != "":
+            temp_format += "&"
+        temp_format += "4K"
+    if temp.find("dvd") != -1:
+        if temp_format != "":
+            temp_format += "&"
+        temp_format += "DVD"
+    if temp.find("digital copy"):
+        if temp_format != "":
+            temp_format += "&"
+        temp_format += "DC"
+    vars.data_buffer.update(Format=temp_format)
 
-        # ===End Parenthesis Parsing===
+    # ===END TYPE PARSING===
 
-        # ===Start Bracket Parsing===
+    # ===START PARSING TITLE===
 
-        if index_psis == -1:  # If there is no parenthetical information
-            title = name[:index_bracket - 1]  # Gets the title up to the extra data (excluding space)
-            vars.data_buffer.update(Format=name[index_bracket+1:name.find(']')])  # Adds the extra information to "Format"
-            return title
+    temp_name = ""
+    parsis_index = name.find("(")
+    bracket_index = name.find("[")
 
-        # ===End Bracket Parsing===
+    if parsis_index != -1:
+        # print(parsis_index)  # Debug
+        temp_name = name.replace(name[parsis_index-1:name.find(')')+1], "")
+    if bracket_index != -1:
+        temp_name = name.replace(temp_name[bracket_index-1:temp_name.find(']')+1], "")
 
-        vars.data_buffer.update(Format=info)
-        return title
-    else:  # There are no parenthesis or brackets for extra information
-        return name
+    # print(temp_name)  # Debug
+    return temp_name
 
-
-def parse_omdb_data(data):
-    """
-    Parses data from the OMDb API JSON file into the data buffer
-    :param data: the JSON filed returned from the OMDb API service
-    """
-    print(vars.data_buffer["Title"])
-    json_fields = ['Title', 'Genre', 'Rated', 'Year', 'Runtime', 'Plot', 'Metascore']
-    for field in json_fields:
-        vars.data_buffer[field] = data[field]
+    # ===END PARSING TILE===
 
 
 # =====END PARSE FUNCTIONS=====
+
+
+# =====START PUBLISH FUNCTIONS=====
+
+
+@DeprecationWarning
+def publish_to_csv():
+    with open('data.csv', 'a', newline="") as csv_file:
+        writer = csv.writer(csv_file, dialect='excel')
+        writer.writerow(vars.data_buffer.values())
+
+
+def publish_to_xml(filename):
+    try:
+        tree = ET.parse(filename)
+        root = tree.getroot()
+    except ET.ParseError:
+        root = ET.Element('database')
+        tree = ET.ElementTree(root)
+
+    movies = ET.SubElement(root, 'Movies')
+
+    for field in vars.data_buffer:
+        ET.SubElement(movies, field).text = vars.data_buffer[field]
+
+    tree.write(filename)
+
+
+def publish_to_txt(filename, data):
+    with open(filename, 'a') as fail_text:
+        fail_text.write(data)
+
+
+# =====END PUBLISH FUNCTIONS=====

@@ -1,0 +1,3250 @@
+<dataroot generated="2018-12-27T11:42:37">
+<Movies>
+<ID>2</ID>
+<Movie>Mickey's House of Villians</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>8</ID>
+<Movie>Road to Morrocco</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>12</ID>
+<Movie>Queen of the Dammed</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>25</ID>
+<Movie>Mortal Kombat: Annihiliation</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>48</ID>
+<Movie>Dune: 2000</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>49</ID>
+<Movie>Dune: 1984</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>60</ID>
+<Movie>Bishops Wife,The</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>69</ID>
+<Movie>John Wayne: In Harms Way</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>82</ID>
+<Movie>John Wayne: They Were Expendable</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>97</ID>
+<Movie>Alien3</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>100</ID>
+<Movie>Record of Lodoss War: Ep 1-7</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>101</ID>
+<Movie>Record of Lodoss War: Ep 8-13</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>102</ID>
+<Movie>Bubblegum Crisis: Tokyo 2040: Ep 01-4</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>103</ID>
+<Movie>Bubblegum Crisis: Tokyo 2040: Ep 05-8</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>104</ID>
+<Movie>Bubblegum Crisis: Tokyo 2040: Ep 09-12</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>105</ID>
+<Movie>Bubblegum Crisis: Tokyo 2040: Ep 13-16</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>106</ID>
+<Movie>Bubblegum Crisis: Tokyo 2040: Ep 17-21</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>107</ID>
+<Movie>Bubblegum Crisis: Tokyo 2040: Ep 22-26</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>109</ID>
+<Movie>Stargate SG-1: Season 8</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>110</ID>
+<Movie>Gundam Wing: Operation 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>111</ID>
+<Movie>Gundam Wing: Operation 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>112</ID>
+<Movie>Gundam Wing: Operation 3</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>113</ID>
+<Movie>Gundam Wing: Operation 4</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>114</ID>
+<Movie>Gundam Wing: Operation 5</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>115</ID>
+<Movie>Gundam Wing: Operation 6</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>116</ID>
+<Movie>Gundam Wing: Operation 7</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>119</ID>
+<Movie>Bubblegum Crisis: Ep 1-3</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>120</ID>
+<Movie>Bubblegum Crisis: Ep 3-6</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>121</ID>
+<Movie>Bubblegum Crisis: Ep 7-8</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>122</ID>
+<Movie>Bubblegum Crisis: Hurricane Live</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>123</ID>
+<Movie>Stargate SG-1: Ep 01-03</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>124</ID>
+<Movie>Stargate SG-1: Ep 04-08</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>125</ID>
+<Movie>Stargate SG-1: Ep 09-13</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>126</ID>
+<Movie>Stargate SG-1: Ep 14-18</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>127</ID>
+<Movie>Stargate SG-1: Ep 19-21</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>128</ID>
+<Movie>Robotech: The Macross Saga: Ep 1-6</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>129</ID>
+<Movie>Robotech: The Macross Saga: Ep 7-12</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>130</ID>
+<Movie>Robotech: Extra Macross Saga 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>131</ID>
+<Movie>Robotech: The Macross Saga: Ep 13-18</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>132</ID>
+<Movie>Robotech: The Macross Saga: Ep 19-24</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>133</ID>
+<Movie>Robotech: Extra Macross Saga 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>134</ID>
+<Movie>Robotech: The Macross Saga: Ep 25-30</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>135</ID>
+<Movie>Robotech: The Macross Saga: Ep 31-36</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>136</ID>
+<Movie>Robotech: Extra The Sentinels</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>137</ID>
+<Movie>Robotech: The Masters: Ep 37-42</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>138</ID>
+<Movie>Robotech: The Masters: Ep 43-48</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>139</ID>
+<Movie>Robotech: Extra The Masters 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>140</ID>
+<Movie>Robotech: The Masters: Ep 49-54</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>141</ID>
+<Movie>Robotech: The Masters: Ep 55-60</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>142</ID>
+<Movie>Robotech: Extra The Masters 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>143</ID>
+<Movie>Robotech: New Generation: Ep 61-67</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>144</ID>
+<Movie>Robotech: New Generation: Ep 68-73</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>145</ID>
+<Movie>Robotech: Extra New Generation 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>146</ID>
+<Movie>Robotech: New Generation: Ep 74-79</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>147</ID>
+<Movie>Robotech: New Generation: Ep 80-85</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>148</ID>
+<Movie>Robotech: Extra New Generation 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>152</ID>
+<Movie>Tinkerbell: The Great Fairy Rescue</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>160</ID>
+<Movie>Halloweentown: Return to, Ultimate Secret Ending</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>164</ID>
+<Movie>Shrek: Forever After, The Final Chapter</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>168</ID>
+<Movie>Dispicable Me</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>179</ID>
+<Movie>Girl with the Dragon Tatoo, The</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>181</ID>
+<Movie>Tunnel Rats, The</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>185</ID>
+<Movie>Sea Quest DSV: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>188</ID>
+<Movie>Star Wars II: Attack of the Clones</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>189</ID>
+<Movie>007: Quantum of Solace</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>192</ID>
+<Movie>AVP: Requiem</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>193</ID>
+<Movie>007: Casino Royal</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>194</ID>
+<Movie>007: Bond Girls are Forever</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>199</ID>
+<Movie>Appleseed: Exmachina</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>200</ID>
+<Movie>Alvin and the Chimpmunks</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>209</ID>
+<Movie>Babylon 5: Legend of the Rangers</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>211</ID>
+<Movie>BaitShop</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>213</ID>
+<Movie>Barbie: The Island Princess</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>214</ID>
+<Movie>Barbie: The Diamond Castle</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>215</ID>
+<Movie>Barbie: Magic of the Rainbow</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>217</ID>
+<Movie>Battlestar Galactica: Season 4.0</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>219</ID>
+<Movie>Bing Crosby: Waikiki Weding</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>220</ID>
+<Movie>Bing Crosby: Double or Nothing</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>221</ID>
+<Movie>Bing Crosby: East Side of Heaven</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>222</ID>
+<Movie>Bing Crosby: If I had my way</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>223</ID>
+<Movie>Bing Crosby: Here Come the Waves</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>225</ID>
+<Movie>Beowulf (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>230</ID>
+<Movie>Bloodrayne: 2 Deliverance</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>235</ID>
+<Movie>Blade Runner: The Final Cut</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>237</ID>
+<Movie>Black Beard</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>241</ID>
+<Movie>Pearl Harbor - National Geographic</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>243</ID>
+<Movie>Master of the Rings, J.R.R. Tolkin</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>244</ID>
+<Movie>Pooh: The Book of Pooh</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>254</ID>
+<Movie>Dune: Special Edition Directors Cut</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>257</ID>
+<Movie>Mission Impossible: M:I-2</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>258</ID>
+<Movie>From Here to Eterninty</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>271</ID>
+<Movie>School House Rock</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>277</ID>
+<Movie>National Lampoons: Van Wilder</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>280</ID>
+<Movie>How the Grinch Stole Christmas (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>283</ID>
+<Movie>Babylon 5: The Gathering/In The Beginning</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>293</ID>
+<Movie>Peter Pan: Return to Neverland</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>303</ID>
+<Movie>Babylon 5: First Season</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>306</ID>
+<Movie>Austin Powers: Goldmember</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>307</ID>
+<Movie>K19: Widowmaker</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>311</ID>
+<Movie>John Wayne: The Horse Soldiers</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>312</ID>
+<Movie>John Wayne: Angel and the Badman</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>313</ID>
+<Movie>John Wayne: The Man From Utah</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>315</ID>
+<Movie>Cinderella - Disney</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>316</ID>
+<Movie>Dinotopia: The secret is about to be revaled</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>321</ID>
+<Movie>Elmos World: Elmo Has Two Ears</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>325</ID>
+<Movie>Pooh: Heffalump</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>335</ID>
+<Movie>Spy Kids: 3-D Game Over</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>337</ID>
+<Movie>National Lampoons: Christmas Vacation</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>340</ID>
+<Movie>Godfather Collection</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>341</ID>
+<Movie>John Wayne: The Star Packer &amp; Huricane Express</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>342</ID>
+<Movie>John Wayne: Texas Terror &amp; Trail Beyond</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>343</ID>
+<Movie>John Wayne: Blue Steel &amp; Hell Town</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>344</ID>
+<Movie>John Wayne: The Man from Utah &amp; Randy Rides Alone</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>345</ID>
+<Movie>John Wayne: Winds of the Wasteland</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>346</ID>
+<Movie>John Wayne: The Lawless Frontier &amp; Riders of Destiny</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>351</ID>
+<Movie>Little Mermaid, the</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>354</ID>
+<Movie>Goal - The Dream Begins</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>357</ID>
+<Movie>X Men III: The Last Stand</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>359</ID>
+<Movie>Cinderella III</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>365</ID>
+<Movie>John Wayne: Jet Pilot</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>371</ID>
+<Movie>Robin Hood: Disney</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>372</ID>
+<Movie>101 Dalmations II: Patch's London Adventure</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>380</ID>
+<Movie>Robin Hood: Kevin Costner</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>381</ID>
+<Movie>Teenage Muntant Ninja Turtles</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>388</ID>
+<Movie>007: Man with the Golden Gun, The</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>394</ID>
+<Movie>Babylon 5: Second Season</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>400</ID>
+<Movie>Stargate SG-1: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>401</ID>
+<Movie>007: Die Another Day</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>413</ID>
+<Movie>Pooh: Piglets Big Movie</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>416</ID>
+<Movie>Babylon 5: Third Season</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>419</ID>
+<Movie>Brining Down the House</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>421</ID>
+<Movie>All Dogs go to Heaven 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>426</ID>
+<Movie>Core,The</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>428</ID>
+<Movie>Stargate SG-1: Season 4</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>435</ID>
+<Movie>Bionicle 1: The Mask of Light</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>438</ID>
+<Movie>Charile's Angels: Full Throttle</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>439</ID>
+<Movie>Battle Star Galactica: Full TV Series</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>440</ID>
+<Movie>Lord of the Rings: The Two Towers (Extended)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>443</ID>
+<Movie>X-Men United</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>449</ID>
+<Movie>Scooby-Doo's Greatest Mysteries</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>453</ID>
+<Movie>Mega Blocks Dragons: Fire &amp; Ice</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>454</ID>
+<Movie>Scooby-Doo 2: Monsters Unleased</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>459</ID>
+<Movie>Beauty and the Beast: Belle's Magical World</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>460</ID>
+<Movie>Lion King 2: Simbas Pride</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>461</ID>
+<Movie>Batman: Animated Series Vol 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>465</ID>
+<Movie>Peter Pan (Live Action)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>473</ID>
+<Movie>Star Wars: Trilogy: IV V VI</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>477</ID>
+<Movie>Babylon 5: Fourth Season</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>478</ID>
+<Movie>Babylon 5: Fifth Season</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>480</ID>
+<Movie>Anastasia/Pocahontis</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>481</ID>
+<Movie>Battlestar Galactica The Movie</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>485</ID>
+<Movie>Dune: Children of Dune</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>490</ID>
+<Movie>Indiana Jones and the Raiders of the Lost Ark</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>497</ID>
+<Movie>Kung Fu: Season I</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>500</ID>
+<Movie>Lion King 1.5</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>508</ID>
+<Movie>Riddick: Pitch Black</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>514</ID>
+<Movie>Stargate Ultimate Edition</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>529</ID>
+<Movie>Veggie Tales: An Easter Carol</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>532</ID>
+<Movie>Garfield: The Movie</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>533</ID>
+<Movie>Bader Santa</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>536</ID>
+<Movie>Pooh: Spring Time with ROO</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>537</ID>
+<Movie>Riddick: Chrionicles</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>538</ID>
+<Movie>Stargate SG-1: Season 5</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>539</ID>
+<Movie>Stargate SG-1: Season 6</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>540</ID>
+<Movie>Stargate SG-1: Season 7</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>541</ID>
+<Movie>Babylon 5: The Movie Collection</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>545</ID>
+<Movie>Barbie: Swan Lake</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>547</ID>
+<Movie>Aladan: Special Edition</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>549</ID>
+<Movie>Barbie: Rapunzel</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>550</ID>
+<Movie>Barbie: Nutcracker</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>552</ID>
+<Movie>Mickey's Twice a Christmas</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>556</ID>
+<Movie>John Wayne: Operation Pacific</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>560</ID>
+<Movie>Argentosoma Vol 1-6</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>561</ID>
+<Movie>Tarzan II</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>567</ID>
+<Movie>Batman: Mystery of Batwoman</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>574</ID>
+<Movie>Fanastic Four (Series)</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>577</ID>
+<Movie>Lemony Snicket's A Series of Unfortunate Events</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>579</ID>
+<Movie>Babylon 5: Crusade</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>584</ID>
+<Movie>Full Metal Panic! (Complete Collection)</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>590</ID>
+<Movie>Battlestar Galactica: Season 2.5</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>592</ID>
+<Movie>John Wayne: 3 Godfathers</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>593</ID>
+<Movie>John Wayne: Fort Apache</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>597</ID>
+<Movie>Batman: Animated Series Vol 3</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>600</ID>
+<Movie>Dora the Explorer: Wolf Pup Rescue</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>604</ID>
+<Movie>Lady and the Tramp II: Scamp's Adventure</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>609</ID>
+<Movie>Legend of Zoro, The</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>615</ID>
+<Movie>Pooh: Pooh's Grand Adventure</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>623</ID>
+<Movie>Aeon Flux MTV Series</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>624</ID>
+<Movie>North County</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>626</ID>
+<Movie>Mega Blocks Dragons: The Metal ages</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>627</ID>
+<Movie>Riddick Triology: Pitch Black, Dark Fury, Chronicles of Riddick</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>628</ID>
+<Movie>Stargate Atlantis: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>632</ID>
+<Movie>Agentosoma: Vol1-6</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>643</ID>
+<Movie>Beast Wars (Transformers 1st Season)</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>644</ID>
+<Movie>Bambi (Platinum Edition)</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>648</ID>
+<Movie>Nadia: Secret of Blue Water (Collection 1)</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>649</ID>
+<Movie>King Authur (Directors Cut)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>650</ID>
+<Movie>Kung Fu: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>651</ID>
+<Movie>Bubblegum Crisis Tokyo 2040: Buried Secrets</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>655</ID>
+<Movie>Aladdin and the King of Theves</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>657</ID>
+<Movie>Star Wars: The Clone Wars: Volume I</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>663</ID>
+<Movie>Sky Captian and the World of Tomorrow</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>664</ID>
+<Movie>Karate Kid Collection</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>665</ID>
+<Movie>Batman: Animated Series Vol 2</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>667</ID>
+<Movie>Christmas Classics, The Origional Television</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>668</ID>
+<Movie>Robotech (Remastered Ed): 01 &amp; 02</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>671</ID>
+<Movie>Barbie: Farytopia</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>674</ID>
+<Movie>Jimmy Neutron, The Adventures of:  Jet Fusion</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>675</ID>
+<Movie>Jimmy Neutron, The Adventures of: Confusion Fusion</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>682</ID>
+<Movie>Pirates of the Caribbean: Deadman's Chest</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>683</ID>
+<Movie>Pooh: Heffalump Halloween Movie</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>688</ID>
+<Movie>Micky Mouse: Mickey's Treat</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>689</ID>
+<Movie>John Wayne: The Quiet Man</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>695</ID>
+<Movie>Scooby-Doo: The Mystery Begins</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>701</ID>
+<Movie>Starship Troopers: Marauder</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>703</ID>
+<Movie>Sweeny Todd: The Demon Barber of Fleet Street</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>706</ID>
+<Movie>Santa Buddies: The Legend of Santa Paws</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>708</ID>
+<Movie>Transformers: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>715</ID>
+<Movie>Avengers 2: Rise of the Panthers</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>718</ID>
+<Movie>Virtuality: Reality is only the Beginning</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>720</ID>
+<Movie>Tinkerbell: The Lost Treasure</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>722</ID>
+<Movie>Iron Man-Animated</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>723</ID>
+<Movie>Hellboy - Sword of Storms</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>735</ID>
+<Movie>Cold Mountian</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>736</ID>
+<Movie>Star Wars: The Clone Wars: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>737</ID>
+<Movie>Star Wars: The Clone Wars: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>739</ID>
+<Movie>Avatar: Extended Edition</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>740</ID>
+<Movie>Stargate Atlantis: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>741</ID>
+<Movie>Stargate Atlantis: Season 3</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>742</ID>
+<Movie>Stargate Atlantis: Season 4</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>743</ID>
+<Movie>Stargate Atlantis: Season 5</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>744</ID>
+<Movie>Avatar The Last Airbender: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>745</ID>
+<Movie>Avatar The Last Airbender: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>746</ID>
+<Movie>Avatar The Last Airbender: Season 3</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>756</ID>
+<Movie>Alice in Wonderland (Tim Burton)</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>758</ID>
+<Movie>Prince of Persia: Sands of Time</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>759</ID>
+<Movie>Robin Hood: Russell Crowe</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>763</ID>
+<Movie>Terminator: The Sarah Conner Chronicles</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>766</ID>
+<Movie>Tiny Toon Adventures: Season 1 Volume 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>767</ID>
+<Movie>Tortoise vs Hare: The rematch of the century</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>768</ID>
+<Movie>Larry the Cable Guy: Witless Protection</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>769</ID>
+<Movie>War Games: The Dead Code</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>776</ID>
+<Movie>Zoom: Academy for Superheros</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>777</ID>
+<Movie>Exorcist: The Beinning</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>779</ID>
+<Movie>Vicki Christina Barcelona</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>780</ID>
+<Movie>Girl with the Dragon Tatoo: Who played with Fire</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>781</ID>
+<Movie>HEX: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>782</ID>
+<Movie>Voltron: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>783</ID>
+<Movie>Voltron: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>784</ID>
+<Movie>Voltron: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>785</ID>
+<Movie>Voltron: Season 3</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>786</ID>
+<Movie>Voltron: Season 4</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>787</ID>
+<Movie>Voltron: Season 5</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>788</ID>
+<Movie>Voltron: Season 6</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>789</ID>
+<Movie>Voltron: Season 7</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>803</ID>
+<Movie>Adventures of Francis the Talking Mule: Volume 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>809</ID>
+<Movie>John Wayne: The Man Who shot Liberty Valance</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>812</ID>
+<Movie>Audie Murphy: No Name on the Bullet</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>819</ID>
+<Movie>Night at the Museum, The: Battle of the Smithsonian</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>820</ID>
+<Movie>Advengers, Next: Heros of Tomorrow</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>822</ID>
+<Movie>Sherlock Holmes (Robert Downey Jr.)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>833</ID>
+<Movie>A Christmas Carol (Animated Jim Carrey)</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>843</ID>
+<Movie>Curious George: Rocket Ride &amp; Other Adventures</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>844</ID>
+<Movie>Curious Geroge 2</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>849</ID>
+<Movie>Doctor Strange (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>870</ID>
+<Movie>Barbie: A Christmas Carol</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>876</ID>
+<Movie>Alvin and the Chipmunks: A Chipmunk Christmas</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>878</ID>
+<Movie>Casshern (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>879</ID>
+<Movie>Celtic Women</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>883</ID>
+<Movie>Christmas Story (Disney)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>888</ID>
+<Movie>Cowboy BeeBop (Animated Series)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>892</ID>
+<Movie>Dead Space Downfall (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>893</ID>
+<Movie>Dead Like Me: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>894</ID>
+<Movie>Dark City (Director's Cut)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>904</ID>
+<Movie>Escaflowne: The complete series</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>905</ID>
+<Movie>Empress and the Warriors, An</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>906</ID>
+<Movie>Encanted</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>909</ID>
+<Movie>Earth the Final Conflict: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>910</ID>
+<Movie>Farscape: The complete Series</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>914</ID>
+<Movie>Firefly: The Complete Series</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>919</ID>
+<Movie>Fantasitc 4: Rise of the Silver Surfer</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>927</ID>
+<Movie>Lord of the Rings: Gollum</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>928</ID>
+<Movie>Dr. Seuss' How the Grinch Stole Christmas (Jim Carrey)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>930</ID>
+<Movie>Halo Lengends (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>934</ID>
+<Movie>Hellboy: The Black Wedding (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>937</ID>
+<Movie>High School Musical 2 Extended Edition</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>938</ID>
+<Movie>High School Musical Remix</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>939</ID>
+<Movie>High School Musical 3 Extended Edition</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>940</ID>
+<Movie>How to Loose a Guy in 10 Days</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>942</ID>
+<Movie>House: Season 3</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>946</ID>
+<Movie>Ice Age: Dawn of the Dinosaus</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>954</ID>
+<Movie>JAG: Season 1</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>955</ID>
+<Movie>JAG: Season 2</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>956</ID>
+<Movie>JAG: Season 4</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>957</ID>
+<Movie>JAG: Season 8</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>958</ID>
+<Movie>Jimmy Stewart: The Cheyenne Social Club</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>959</ID>
+<Movie>Jimmy Stewart: Firecreek</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>960</ID>
+<Movie>Jimmy Stewart: The Stratton Story</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>961</ID>
+<Movie>Jimmy Stewart: The Naked Spur</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>962</ID>
+<Movie>Jimmy Stewart: The FBI Story</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>963</ID>
+<Movie>Jimmy Stewart: The Spirit of St. Louis</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>978</ID>
+<Movie>Legend of the Gardians: The Owls of Ga'Hoole</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>984</ID>
+<Movie>Looney Tunes: Spotlight Collection</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>986</ID>
+<Movie>Lord of the Rings: The Fellowship of the Ring (Exp Ed)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>987</ID>
+<Movie>Lord of the Rings: The Return of the King (Exp Ed)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>988</ID>
+<Movie>Madagascar 2: Escape from Africa</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>994</ID>
+<Movie>Nick Jr. Go Diego Go: Wolf Pup Rescue</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>995</ID>
+<Movie>Mission Impossible: M:I:III</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1000</ID>
+<Movie>Mamma Mia The Movie</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1001</ID>
+<Movie>Narnia: Pince Caspian</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1003</ID>
+<Movie>National Treasure 2: Book of Secrets</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1040</ID>
+<Movie>42: The Jackie Robinson Story</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1059</ID>
+<Movie>Tinkerbell: Secret of the Wings</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1068</ID>
+<Movie>Tinkerbell: The Pirate Fairy</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1071</ID>
+<Movie>Batman: The Dark Knight Rises</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1075</ID>
+<Movie>Night at the Museum: Battle at Smithsonian</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1078</ID>
+<Movie>Vampire Hunter: Abraham Lincoln</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1079</ID>
+<Movie>Barbie: Magic of Pegasus</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1081</ID>
+<Movie>Gromist's Tail Waggin' DVD</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1088</ID>
+<Movie>Nadia: Secret of Blue Water (Collection 2)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1090</ID>
+<Movie>Barbie: Mermaidia</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1091</ID>
+<Movie>Barbie: Princess and the Pauper</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1094</ID>
+<Movie>King Kong (2005)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1101</ID>
+<Movie>Exorscism of Emily Rose, The</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1104</ID>
+<Movie>Narnia: The Lion, Witch &amp; the Wardrobe</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1106</ID>
+<Movie>Ultimate Advengers: The Movie</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1113</ID>
+<Movie>Sea Quest DSV: Season I</Movie>
+<Type>DVD</Type>
+<Format>Pan &amp; Scan</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1114</ID>
+<Movie>John Wayne: Mclintock</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1116</ID>
+<Movie>Battlestar Galactica: Season I.0</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1117</ID>
+<Movie>Battlestar Galactica: Season 2.0</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1119</ID>
+<Movie>Earth 2: The complete Series</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1121</ID>
+<Movie>Star Wars: The Clone Wars: Volume II</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1122</ID>
+<Movie>Pooh: Grand Adventure</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1133</ID>
+<Movie>Sherlock Holmes (Robert Downey Jr.): A Game of Shadows</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1135</ID>
+<Movie>Man with the Iron Fist, The</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1147</ID>
+<Movie>How to Train Your Dragon: Gift of the Night Fury</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1150</ID>
+<Movie>Robocop (2014)</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1154</ID>
+<Movie>Hubble: IMAX</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1156</ID>
+<Movie>Dead Space: Aftermath (Animated)</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1162</ID>
+<Movie>Monument Men, The</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1173</ID>
+<Movie>Star Wars: The Complete Saga (Extended Edition)</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1175</ID>
+<Movie>Penny Dreadful: First Season</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1176</ID>
+<Movie>Penny Dreadful: Second Season</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1177</ID>
+<Movie>Admiral:Roaring Currents, The</Movie>
+<Type>BR</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1178</ID>
+<Movie>Dolpin Tale 2</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1180</ID>
+<Movie>Imitaton Game, The</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1182</ID>
+<Movie>Penguins: The Movie</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1183</ID>
+<Movie>Sercret World of Arriety, The</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Both</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1193</ID>
+<Movie>Maze Runner: Scorch Trials, The</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1194</ID>
+<Movie>Tinker Bell: The Legend of the Neverbeast</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1195</ID>
+<Movie>Tinker Bell: The Legend of the Neverbeast</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1197</ID>
+<Movie>007: Spectre</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1200</ID>
+<Movie>Pride, Prejudice and Zombies</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1202</ID>
+<Movie>Fullmetal Alchemist (original series)</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1203</ID>
+<Movie>Moribito: Guardian of the Spirit (complete series)</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1221</ID>
+<Movie>Star Wars VII: The Force Awakens</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1224</ID>
+<Movie>Arthur and the Invisibles 2 &amp; 3</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1228</ID>
+<Movie>Ben-Hur(2016)</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1229</ID>
+<Movie>Huntman, The: Winter's War</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1237</ID>
+<Movie>DC Legends of Tomorrow: The Complete First Series</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1238</ID>
+<Movie>Green Lantern: Extended Cut</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1240</ID>
+<Movie>Godzilla(2014)</Movie>
+<Type>BR&amp;3D&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1241</ID>
+<Movie>Ghostbusters: Answer the Call</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1242</ID>
+<Movie>Frankenstien, I</Movie>
+<Type>BR&amp;3D&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1244</ID>
+<Movie>Final Fantasy XV: Kingslaive</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1249</ID>
+<Movie>Divergent: Insurgent</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1250</ID>
+<Movie>Divergent: Allegiant</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1256</ID>
+<Movie>Blue Submarine NO. 6: Complete Collection</Movie>
+<Type>BR</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1265</ID>
+<Movie>Red Riding Hood: Alternate Cut</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1266</ID>
+<Movie>Planet of the Apes: Rise of</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1267</ID>
+<Movie>Pete's Dragon: Unanimated</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1286</ID>
+<Movie>Jerry Lewis: The Ladies Man</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1287</ID>
+<Movie>Jerry Lewis: The Bellboy</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1288</ID>
+<Movie>Jerry Lewis: The Errand Boy</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1289</ID>
+<Movie>Jerry Lewis: The Patsy</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1295</ID>
+<Movie>Miss Peregine's Home for Peculiar Children</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1303</ID>
+<Movie>Only Yesturday</Movie>
+<Type>BR &amp; DVD</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1310</ID>
+<Movie>Surf's Up 2: Wave Mania</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1319</ID>
+<Movie>Fantastic Beast And Where To Find Them</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1320</ID>
+<Movie>Big Friendly Giant</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1321</ID>
+<Movie>U.S Navy Carriers: Weapons of War</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1325</ID>
+<Movie>Transformers: 1st Season(animated)</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1329</ID>
+<Movie>Teenage Muntant Ninja Turltes</Movie>
+<Type>BR&amp;3D&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1338</ID>
+<Movie>X-Men: Days of Furture Past</Movie>
+<Type>BR&amp;3D&amp;D&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1339</ID>
+<Movie>Witless Protection and Bonus DVD</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1340</ID>
+<Movie>Three Caballeros(Disney)</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1342</ID>
+<Movie>V: The Complete First Season</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1343</ID>
+<Movie>Van Wilder: The Rise of Taj</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1344</ID>
+<Movie>Twelve O' Clock High</Movie>
+<Type>BR</Type>
+<Format>Full Screen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1346</ID>
+<Movie>Appleseed Alpa</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1352</ID>
+<Movie>Ben-Hur (new)</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1355</ID>
+<Movie>Baywatch (extended)</Movie>
+<Type>BR&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>R</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1356</ID>
+<Movie>Tarzan: A New Threat Awaits</Movie>
+<Type>BR&amp;3D&amp;D&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1359</ID>
+<Movie>Planet of the Apes: War For</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1361</ID>
+<Movie>Dispicable Me 3</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1362</ID>
+<Movie>Batman: Harley Quinn</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1374</ID>
+<Movie>Spiderman: Homecoming</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1376</ID>
+<Movie>Planet of the Apes: Dawn of</Movie>
+<Type>BR&amp;DC</Type>
+<Format>Widescreen</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>1</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1381</ID>
+<Movie>Jimmy Stewart: The Rare Breed</Movie>
+<Type>DVD</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1383</ID>
+<Movie>Ben-Hur (1959)</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>G</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1384</ID>
+<Movie>John Wayne: Hatari!</Movie>
+<Type>BR</Type>
+<Format>Widescreen</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1410</ID>
+<Movie>Mamma Mia: Here We Go Again</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1411</ID>
+<Movie>Sergent York</Movie>
+<Type>DVD</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1416</ID>
+<Movie>Star Trek: Discovery Season 1</Movie>
+<Type>BR</Type>
+<Format>Both</Format>
+<Rating>NR</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1417</ID>
+<Movie>The House With A Clock In It's Walls</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+<Movies>
+<ID>1421</ID>
+<Movie>Ant-Man and Wasp</Movie>
+<Type>4K&amp;BR&amp;DC</Type>
+<Format>Both</Format>
+<Rating>PG-13</Rating>
+<Validate_x0020_DC>0</Validate_x0020_DC>
+</Movies>
+</dataroot>

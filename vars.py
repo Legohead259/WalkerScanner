@@ -9,8 +9,13 @@ def reset_buffer():
     data_buffer = {'Title': "",
                    'Genre': "",
                    'Rated': "",
+                   'Type': "",
                    'Format': "",
                    'Year': "",
                    'Runtime': "",
                    'Plot': "",
                    'Metascore': ""}
+
+
+def __init__():
+    reset_buffer()

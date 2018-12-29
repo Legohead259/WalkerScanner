@@ -62,8 +62,12 @@
             hint_text: "Rating"
             on_text_validate: self.update_rating()
         DataBox:
+            id: Type
+            hint_text: "Type (4K, BR, etc.)"
+            on_text_validate: self.update_type()
+        DataBox:
             id: Format
-            hint_text: "Format"
+            hint_text: "Format (Widescreen, Fullscreen, etc."
             on_text_validate: self.update_format()
         DataBox:
             id: Year

@@ -2,14 +2,12 @@ from kivy.app import App
 from kivy.properties import ListProperty
 from kivy.uix.button import Button
 from kivy.core.window import Window
-from kivy.uix.dropdown import DropDown
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.widget import Widget
-import csv
 
 import vars
-from util import query_ombd, query_barcode_apis
+from util import query_ombd, query_upcdb, publish_to_xml
 
 Window.size = (500, 350)
 
@@ -69,7 +67,7 @@ class UPCInput(TextInput):
         """
         Wrapper for automatically getting the movie data from the UPC and OMDb APIs and auto-populating the GUI fields
         """
-        if query_barcode_apis(self.text):
+        if query_upcdb(self.text):
             root.update()
             root.ids['feedback'].set_good()
         else:
@@ -83,9 +81,7 @@ class PublishButton(Button):
         Writes the auto-fill fields to the .csv file for import to the spreadsheet
         """
         if root.ids.Title.text != "":  # If the movie has been queried
-            with open('data.csv', 'a', newline="") as csv_file:
-                writer = csv.writer(csv_file, dialect='excel')
-                writer.writerow(vars.data_buffer.values())
+            publish_to_xml("Datafiles/Movies.xml")
             root.reset()
 
 
@@ -106,6 +102,9 @@ class DataBox(TextInput):
 
     def update_rating(self):
         vars.data_buffer.update(Rated=self.text)
+
+    def update_type(self):
+        vars.data_buffer.update(Type=self.text)
 
     def update_format(self):
         vars.data_buffer.update(Format=self.text)
@@ -131,5 +130,5 @@ class ScannerApp(App):
 
 
 if __name__ == '__main__':
-    vars.reset_buffer()
+    # vars.reset_buffer()
     ScannerApp().run()
